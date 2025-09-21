@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import './theme.css';
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--text-dark);
+}
+
+h1, h2 {
+  margin: 0 0 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+button.primary {
+  background: var(--primary);
+  color: white;
+}
+button.primary:hover {
+  background: #4338ca;
+}
+
+button.secondary {
+  background: var(--secondary);
+  color: white;
+}
+button.secondary:hover {
+  background: #0891b2;
+}
+
+button.danger {
+  background: var(--danger);
+  color: white;
+}
+button.danger:hover {
+  background: #dc2626;
+}
+
+.clear-btn {
+  background: #e5e7eb;
+  color: var(--text-dark);
+}
+.clear-btn:hover {
+  background: #d1d5db;
+}
+
+/* Widget card style */
+.widget-card {
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+.widget-card:hover {
+  transform: translateY(-3px);
+}

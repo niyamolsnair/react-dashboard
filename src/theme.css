@@ -1,0 +1,10 @@
+:root {
+  --primary: #4f46e5;   /* Indigo */
+  --secondary: #06b6d4; /* Cyan */
+  --background: #f9fafb;
+  --card-bg: #ffffff;
+  --text-dark: #111827;
+  --text-light: #6b7280;
+  --success: #22c55e;
+  --danger: #ef4444;
+}

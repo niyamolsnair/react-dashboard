@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "id": "cspm-exec",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        { "id": "w-1", "title": "Summary", "text": "Random summary text for the widget" },
+        { "id": "w-2", "title": "Alerts", "text": "Random alerts text" }
+      ]
+    },
+    {
+      "id": "ops",
+      "name": "Operations",
+      "widgets": [
+        { "id": "w-10", "title": "Throughput", "text": "Throughput widget sample text" },
+        { "id": "w-11", "title": "System Health", "text": "Shows CPU and memory usage" }
+      ]
+    },
+    {
+      "id": "sec",
+      "name": "Security",
+      "widgets": [
+        { "id": "w-20", "title": "Vulnerabilities", "text": "Details about security vulnerabilities" },
+        { "id": "w-21", "title": "Firewall Logs", "text": "Recent firewall activity logs" }
+      ]
+    }
+  ]
+}
